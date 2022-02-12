@@ -13,7 +13,8 @@ party_size = int(input("How many people to plit the bill? "))
 
 split_amount = total_bill * (tip_perc / 100.0 + 1.0) / party_size
 split_amount_round = round(split_amount,2)
+split_amount_2f_format = "{:.2f}".format(split_amount) # better presentation of decimal numbers
 
-print(f"Each person should pay: ${split_amount_round}")
+print(f"Each person should pay: ${split_amount_2f_format}")
 
 
