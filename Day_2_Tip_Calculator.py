@@ -16,5 +16,3 @@ split_amount_round = round(split_amount,2)
 split_amount_2f_format = "{:.2f}".format(split_amount) # better presentation of decimal numbers # binding string to particular format
 
 print(f"Each person should pay: ${split_amount_2f_format}")
-
-
